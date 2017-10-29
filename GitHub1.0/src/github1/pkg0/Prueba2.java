@@ -14,6 +14,10 @@ public class Prueba2 {
     public Prueba2() {
         var = 5;
     }
+    
+    public void setVar(int var){
+        this.var=var;
+    }
 
     @Override
     public String toString() {
